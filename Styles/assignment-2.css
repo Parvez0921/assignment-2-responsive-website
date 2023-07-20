@@ -124,6 +124,35 @@ nav li{
     border: 2px solid #F948B2;
     color: #af3e82;
 }
+/* .button5{
+    margin-left: 8rem;
+} */
+/* #extra{
+    margin-left: 6.25rem;
+} */
+.foot{
+    margin: 0 -6.25rem;
+    padding: 4rem 16rem;
+    background-color: #0B0223;
+    color: #FFFFFF;
+    text-align: center;
+}
+.foot-sec{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.icons{
+    display: flex;
+    margin: 4rem;
+    justify-content: center;
+    justify-content: space-around;
+}
+.foot-text{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
 
 /* responsive for mobile */
 @media screen and (max-width:576px) {
@@ -147,9 +176,24 @@ nav li{
 
        .online-game-sec{
         margin-top: 200px;
+        margin-left: 80px;
        }
        .on-pics{
         flex-direction: column
-       };
+       }
+       .play-sec{
+        flex-direction: column;
+       }
+       .play-sec-pic{
+        width: 400px;
+       }
+       .button-sec{
+        max-width: 500px;
+        margin-left: -70px;
+        grid-template-columns: repeat(3,1fr);
+       }
+       .foot{
+        padding: 4rem;
+       }
     }
     
