@@ -1,0 +1,19 @@
+body{
+     font-family: 'Work Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 6.25rem 1.25rem 6.25rem;
+}
+nav li{
+    list-style: none;
+    align-items: center;
+    margin-left: 1.25rem;
+}
+.menu-list{
+    display: flex;
+}
+.t1{
+    color: #FF42A5;
+}
