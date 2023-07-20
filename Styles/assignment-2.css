@@ -104,6 +104,26 @@ nav li{
     margin-left: 360px;
     margin-top: -200px;
 }
+.button-sec{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+.but-cont{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 1rem;
+    gap: 2rem;
+}
+.but-cont:hover{
+    border: 2px solid #F948B2;
+    color: #af3e82;
+}
 
 /* responsive for mobile */
 @media screen and (max-width:576px) {
